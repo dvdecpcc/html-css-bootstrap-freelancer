@@ -10,3 +10,6 @@ body{
 }
 
 
+.myst_nav{
+    background-color: var(--myst_blue);
+}
