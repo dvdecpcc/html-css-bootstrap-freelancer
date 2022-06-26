@@ -24,6 +24,12 @@ body{
 .bg_white{
     background-color: white;
 }
+.bg_blue{
+    background-color: var(--myst_blue);
+}
+.bg_lighter_blue{
+    background-color: var(--myst_lighter_blue);
+}
 
 .myst_white_hr, .myst_blue_hr{
     border-radius: 30px;
@@ -39,6 +45,9 @@ body{
 }
 .text_blue{
     color: var(--myst_blue);
+}
+.text_green{
+    color: var(--myst_green);
 }
 
 .overlay{
