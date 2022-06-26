@@ -60,3 +60,9 @@ body{
 .myst_img_container:hover .overlay{
     display: block;
 }
+
+.myst_btn{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
