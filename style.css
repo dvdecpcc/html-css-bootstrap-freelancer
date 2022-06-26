@@ -5,11 +5,58 @@ body{
 :root{
     --myst_green: rgb(26, 188, 156);
     --myst_white: #fff;
-    --myst_blue: rgb(44, 62, 80,);
+    --myst_blue: rgb(44, 62, 80);
     --myst_lighter_blue: rgb(58	84	109	);
 }
 
 
 .myst_nav{
     background-color: var(--myst_blue);
+}
+
+.myst_hamburger{
+    filter: invert(1);
+}
+
+.bg_green{
+    background-color: var(--myst_green);
+}
+.bg_white{
+    background-color: white;
+}
+
+.myst_white_hr, .myst_blue_hr{
+    border-radius: 30px;
+    opacity: 1;
+}
+.myst_white_hr{
+    background-color: white;
+    border: 3px solid white;
+}
+.myst_blue_hr{
+    color: var(--myst_blue);
+    border: 3px solid var(--myst_blue);
+}
+.text_blue{
+    color: var(--myst_blue);
+}
+
+.overlay{
+    background-color: rgba(26, 188, 156, .5);
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.overlay i{
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.myst_img_container:hover .overlay{
+    display: block;
 }
